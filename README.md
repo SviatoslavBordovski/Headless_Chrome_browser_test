@@ -2,7 +2,7 @@
 <html>
 
 <header>
-<h2><b>Short Readme document about Headless Browsers</b></h2>
+           <h2><b>Short <code>Readme</code> document about Headless Browsers</b></h2>
 </header>
 
 <body>
