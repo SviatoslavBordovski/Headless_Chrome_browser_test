@@ -6,7 +6,7 @@ from selenium.webdriver.firefox.options import Options
 firefox_options = Options()
 firefox_options.add_argument('--headless')
 
-#Assign the '--headless' value to the 'firefox-options' that were declared at the beginning, give a path to the geckodriver:
+#Assign '--headless' value to the 'firefox-options' that were declared at the beginning, give a path to the geckodriver:
 driver = webdriver.Firefox(executable_path="/home/sb/geckodriver", firefox_options=firefox_options)
 driver.implicitly_wait(5) #Wait for the element detection on the page
 
